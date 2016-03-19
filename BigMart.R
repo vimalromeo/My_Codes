@@ -10,9 +10,6 @@ hist(BigMart$Item_Outlet_Sales)
 summary(BigMart$Item_Outlet_Sales)
 ###
 summary(BigMart)
-install.packages("corrplot")
-library("corrplot")
-bigcor <- cor(BigMart)
 mean(BigMart$Item_Weight)
 #Getting Mean
 MeanItem_Weight <- mean(BigMart$Item_Weight[!is.na(BigMart$Item_Weight)])
